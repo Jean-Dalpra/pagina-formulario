@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+background-color: rgb(255, 255, 3);
+width: 100%;
+height: 639px;
+}
+fieldset{
+background-color: aqua;
+height: 639px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,33.3%);
+grid-template-rows: repeat(1,100%);
+border-style: none;
+}
+.first-child{
+background-color: rgb(11, 255, 64);
+height: 100%;
+width: 100%;
+border-radius: 1%;
+text-align: center;
+font-size: large;
+
+}
+.midle-child{
+background-color: rgb(255, 255, 255);
+height: 95%;
+width:100%;
+margin-top: 4%;
+font-size: large;
+}
+.last-child{
+background-color: rgb(255, 13, 134);
+height: 100%;
+width:  100%;
+border-radius: 1%;
+text-align: center;
+font-size: large;
+}
+h1{
+font-size: 40px;
+color: #376390;
+margin-left: 50px;
+font-family:Arial, Helvetica, sans-serif ;
+}
+.x{
+height: 40px;
+width: 30px;
+margin-left: 370px;
+margin-top: 20px;
+font-size: 30px;
+color: #797979;
+background-color: white;
+border: none;
+}
+
+.barra{
+border-radius: 1px;
+background-color: #e2e2e2;
+color: white;
+text-shadow: 2px 1px gray;
+border: none;
+}
+.a{
+margin-top: 40px ;
+}
+
+.entrar{
+height: 30px;
+width: 100px;
+font-size: 20px;
+
+}
+.digiteuser{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 200px;
+
+}
+.barrauser{
+margin-top: 3px;
+margin-left: 50px;
+height: 40px;
+width: 350px;
+}
+.afastar{
+margin-top: 30px;    
+}
